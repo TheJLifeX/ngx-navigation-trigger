@@ -11,6 +11,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-navigation-trigger": [
+        "dist/ngx-navigation-trigger/ngx-navigation-trigger",
+        "dist/ngx-navigation-trigger"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,

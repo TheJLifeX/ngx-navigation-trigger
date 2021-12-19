@@ -1,0 +1,8 @@
+<div class="nav">
+  <a class="nav__item" *ngFor="let link of links" [routerLink]="link" routerLinkActive="nav__item--active">{{ link
+    }}</a>
+</div>
+<hr>
+<div>Navigation trigger for the current page ("{{ currentPageUrl }}"): <span class="navigation-trigger">{{
+    currentPageNavigationTrigger }}</span></div>
+<router-outlet></router-outlet>

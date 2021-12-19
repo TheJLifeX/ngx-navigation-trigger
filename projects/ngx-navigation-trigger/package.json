@@ -1,0 +1,30 @@
+{
+  "name": "ngx-navigation-trigger",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "description": "Determine the trigger of the current page (either an imperative, backward or forward navigation).",
+  "keywords": [
+    "navigation",
+    "backward",
+    "forward",
+    "imperative",
+    "popstate",
+    "angular"
+  ],
+  "homepage": "https://github.com/TheJLifeX/ngx-navigation-trigger#readme",
+  "bugs": {
+    "url": "https://github.com/TheJLifeX/ngx-navigation-trigger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheJLifeX/ngx-navigation-trigger.git"
+  },
+  "license": "MIT",
+  "author": "Ulrich Tiofack"
+}
