@@ -4,7 +4,7 @@
   "scripts": {
     "dev--ngx-navigation-trigger": "ng build ngx-navigation-trigger --watch",
     "dev--demo-app": "ng serve demo-app",
-    "publish--ngx-navigation-trigger": "ng build ngx-navigation-trigger --configuration='production' && cd dist/ngx-navigation-trigger && npm publish"
+    "publish--ngx-navigation-trigger": "ng build ngx-navigation-trigger --configuration=production && cd dist/ngx-navigation-trigger && npm publish"
   },
   "private": true,
   "dependencies": {
