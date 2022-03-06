@@ -4,7 +4,8 @@
   "scripts": {
     "dev--ngx-navigation-trigger": "ng build ngx-navigation-trigger --watch",
     "dev--demo-app": "ng serve demo-app",
-    "publish--ngx-navigation-trigger": "ng build ngx-navigation-trigger --configuration=production && cd dist/ngx-navigation-trigger && npm publish"
+    "build": "powershell rm ./dist/* -Recurse && ng build ngx-navigation-trigger --configuration=production && powershell cp ./LICENSE,./README.md ./dist/ngx-navigation-trigger/",
+    "publish-library": "npm run build && npm publish ./dist/ngx-navigation-trigger/ && powershell rm ./dist/* -Recurse"
   },
   "private": true,
   "dependencies": {
