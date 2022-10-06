@@ -13,16 +13,26 @@ export class AppComponent implements OnInit {
   currentPageNavigationTrigger!: NavigationTrigger;
   currentPageUrl!: string;
 
-  links: string[] = [
-    '/page-a',
-    '/page-b',
-    '/page-c'
+  links = [
+    {
+      name: 'Page A',
+      url: '/page-a'
+    },
+    {
+      name: 'Page B',
+      url: '/page-b'
+    },
+    {
+      name: 'Page C',
+      url: '/page-c'
+    }
   ];
 
   constructor(
     private navigationTriggerService: NavigationTriggerService,
     private titleService: Title,
-    private locationService: Location) { }
+    private locationService: Location
+  ) { }
 
   ngOnInit(): void {
 
@@ -31,7 +41,7 @@ export class AppComponent implements OnInit {
     });
 
     this.locationService.onUrlChange((url) => {
-      this.titleService.setTitle(`${url} - Demo app`);
+      this.titleService.setTitle(`${url} - NgxNavigationTrigger`);
       this.currentPageUrl = url;
     });
   }

@@ -1,16 +1,7 @@
-.nav {
-  padding: 1rem;
-}
-.nav__item:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.nav__item--active {
-  color: #1976d2;
-  font-size: 1.5rem;
+.app-navbar {
+  box-shadow: var(--app-navbar-box-shadow);
 }
 
 .navigation-trigger {
   color: #4caf50;
-  font-size: 1.5rem;
 }
