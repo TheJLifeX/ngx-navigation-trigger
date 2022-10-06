@@ -4,6 +4,8 @@
 
 NgxNavigationTrigger allows you to know if the current page was trigged by either an `'imperative'`, `'backward'` or `'forward'` navigation.
 
+## [View the demo](https://stackblitz.com/edit/ngx-navigation-trigger)
+
 ## Installation
 ```sh
 npm install ngx-navigation-trigger --save
